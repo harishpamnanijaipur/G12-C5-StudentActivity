@@ -75,7 +75,8 @@ while True:
       bullet.x ,bullet.y = newxy(bullet.x, bullet.y, 20 , bangle)
         
   #change bullet state back to ready when it moves out
-  
+   if bullet.y<__ or bullet.x<__ or bullet.y>__ or bullet.x>__:
+    bulletState="ready"
   
   pygame.draw.rect(screen,(225,225,15),bullet)        
    
